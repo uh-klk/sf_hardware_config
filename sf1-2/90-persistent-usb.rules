@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="1a86", ENV{ID_MODEL_ID}=="7523", SYMLINK+="p3dxBase"
+#The line below doesn't work anymore, replaced with the new one
+#SUBSYSTEM=="tty", SYBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="0403", ENV{ID_MODEL_ID}="6001", SYMLINK+="dynamixel"
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A700etWE", SYMLINK+="dynamixel"
