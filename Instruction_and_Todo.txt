@@ -26,7 +26,7 @@ data: [0.0, 100]"
 TODO: 
 1. Publish dynamixel joint state for the tray so it get displayed on rviz.
 2. Connect to ShowMeTeachMe framework.
-3. Install Arduino on robot.
+3. Install Arduino ros software on robot.
 4. Move everything into SF1-2.
 5. Create standard_behaviour_parser for sf_tune, sf_dance, etc. based on headMovement_parser.hpp
    - the sf_tune.cpp need to be changed so it function similar to the control used in sf_head.cpp
